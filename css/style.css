@@ -10,6 +10,7 @@ body {
 	font-weight: lighter;
 	font-size: 1.1rem;
 	background-color: #f6f8f9;
+	border-top: 10px solid black;
 }
 
 /* header */
@@ -38,13 +39,13 @@ h1 {
 
 #buttons-container {
 	border-radius: 10px 10px 0 0;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 }
 
 .button {
 	display: inline-block;
 	border-radius: 8px;
-	padding: 10px;
+	padding: 8px 10px;
 	text-decoration: none;
 }
 
@@ -64,7 +65,7 @@ h1 {
 
 .container {
 	margin: 50px auto;
-	width: 900px;
+	width: 950px;
 	background-color: white;
 	padding: 10px 40px;
 
@@ -72,5 +73,54 @@ h1 {
 
 #list-container {
 	border-radius: 0 0 10px 10px;
-	margin-top: 5px;
+	margin-top: 2px;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	line-height: 3rem;
+}
+
+.tag {
+	text-decoration: none;
+	font-size: 0.8rem;
+	border-radius: 12px;
+	padding: 7px 12px;
+	color: white;
+}
+
+.editorial-tag {
+	background-color: #45abea;
+}
+
+.q1-goals-tag {
+	background-color: #9c72e4;
+}
+
+.recruiting-tag {
+	background-color: #64c0a9;
+}
+
+.mobile-tag {
+	background-color: #f29e33;
+}
+
+.website-tag {
+	background-color: #d863a1;
+}
+
+#editorial {
+	background-color: #f29e33;
+}
+
+.checkmark {
+	color: #7fbf7f;
+}
+
+.cross {
+	color: #ff7f7f;
 }
