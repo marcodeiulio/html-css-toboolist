@@ -124,3 +124,23 @@ li {
 .cross {
 	color: #ff7f7f;
 }
+
+.green-circle {
+	text-align: center;
+	border-radius: 50%;
+	border-color: #7fbf7f;
+	border-width: 1px;
+	border-style: solid;
+	vertical-align: middle;
+	padding: 2px 5px;
+}
+
+.red-circle {
+	text-align: center;
+	border-radius: 50%;
+	border-color: #ff7f7f;
+	border-width: 1px;
+	border-style: solid;
+	vertical-align: middle;
+	padding: 2px 7px;
+}
