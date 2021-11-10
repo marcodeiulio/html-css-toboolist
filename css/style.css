@@ -35,6 +35,14 @@ h1 {
 
 /* main */
 
+.container {
+	margin: 50px auto;
+	width: 950px;
+	background-color: white;
+	padding: 10px 40px;
+
+}
+
 /* buttons section */
 
 #buttons-container {
@@ -62,14 +70,6 @@ h1 {
 }
 
 /* list section */
-
-.container {
-	margin: 50px auto;
-	width: 950px;
-	background-color: white;
-	padding: 10px 40px;
-
-}
 
 #list-container {
 	border-radius: 0 0 10px 10px;
