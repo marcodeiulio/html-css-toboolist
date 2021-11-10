@@ -1,0 +1,163 @@
+/* Generic */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 1.1rem;
+	background-color: #f6f8f9;
+	border-top: 10px solid black;
+}
+
+/* header */
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+#logo {
+	height: 60px;
+	vertical-align: middle;
+}
+
+h1 {
+	display: inline;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	vertical-align: middle;
+}
+
+/* main */
+
+.container {
+	margin: 50px auto;
+	width: 950px;
+	background-color: white;
+	padding: 10px 40px;
+
+}
+
+/* buttons section */
+
+#buttons-container {
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 2px;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 8px;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+
+#task-button {
+	background-color: #1e90ff;
+	color: white;
+	border: 1px solid #ffffff00;
+}
+
+#section-button {
+	background-color: #fff;
+	border: 1px solid #a7a7a7;
+	color: #a7a7a7;
+}
+
+/* list section */
+
+h3:before {
+	content: "\25BE  ";
+  }
+
+#list-container {
+	border-radius: 0 0 10px 10px;
+	margin-top: 2px;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+ul > li {
+	line-height: 3rem;
+	vertical-align: middle;
+}
+
+li > a {
+	text-decoration: none;
+	font-size: 0.8rem;
+	border-radius: 12px;
+	padding: 7px 12px;
+	color: white;
+}
+
+.editorial-tag {
+	background-color: #45abea;
+}
+
+.q1-goals-tag {
+	background-color: #9c72e4;
+}
+
+.recruiting-tag {
+	background-color: #64c0a9;
+}
+
+.mobile-tag {
+	background-color: #f29e33;
+}
+
+.website-tag {
+	background-color: #d863a1;
+}
+
+.sales-tag {
+	background-color: #b0c932;
+}
+
+#editorial {
+	background-color: #f29e33;
+}
+
+.checkmark:after {
+	color: #7fbf7f;
+	content: "\2713";
+}
+
+.cross:after {
+	color: #ff7f7f;
+	content: "\2717";
+	vertical-align: middle;
+}
+
+.cross {
+	vertical-align: middle;
+	line-height: 1rem;
+}
+
+.green-circle {
+	text-align: center;
+	border-radius: 50%;
+	border-color: #7fbf7f;
+	border-width: 1px;
+	border-style: solid;
+	vertical-align: middle;
+	padding: 2px 5px;
+}
+
+.red-circle {
+	text-align: center;
+	border-radius: 50%;
+	border-color: #ff7f7f;
+	border-width: 1px;
+	border-style: solid;
+	vertical-align: middle;
+	padding: 2px 7px;
+}
